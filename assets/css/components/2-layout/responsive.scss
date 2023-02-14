@@ -1,0 +1,137 @@
+// 1400 ========================
+@include xlg-xxxlg {
+
+    // Menu ==============
+    .menu {
+        &_item {
+            width: calc(25% - 20px);
+
+            &-photo {
+                height: 250px;
+            }
+        }
+    }
+
+    // Menu end ==========
+}
+
+// 1100 ========================
+@include xlg-xxlg {
+
+    // Menu ==============
+    .menu {
+        &_category {
+            width: 100%;
+            max-width: 750px;
+            overflow-x: auto;
+            margin: 0 auto 45px;
+            background: #f8f7f3;
+            white-space: nowrap;
+
+            &-title {
+                font-size: 18px;
+            }
+        }
+
+        &_box {
+            &-title {
+                font-size: 16px;
+            }
+        }
+
+        &_item {
+            &-photo {
+                height: 200px;
+            }
+        }
+    }
+
+    // Menu end ==========
+}
+
+// 920 =======================
+@include lg-xxlg {
+
+    .auto_container {
+        padding: 0 35px;
+    }
+
+    // Header =============
+    .header {
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    // Header end =========
+
+    // Aside =============
+    .aside {
+
+        .left,
+        .right {
+            width: 80px;
+        }
+    }
+
+    // Aside end =========
+
+    // Menu ================
+    .menu {
+        &_category {
+            justify-content: unset;
+            border-radius: 5px;
+
+            &::-webkit-scrollbar {
+                height: 5px;
+            }
+
+            &-title {
+                padding: 0 10px;
+                font-size: 16px;
+            }
+        }
+
+        &_item {
+            width: calc(33.33% - 20px);
+
+            &-title {
+                font-size: 16px;
+            }
+
+            &-cash {
+                font-size: 13px;
+            }
+        }
+    }
+
+    // Menu end ============
+
+}
+
+// 640 ======================
+@include lg-xlg {
+
+    // Menu ================
+    .menu {
+        &_item {
+            width: calc(50% - 20px);
+        }
+    }
+
+    // Menu end ============
+}
+
+// 750 ========================
+@include lg-lg {}
+
+// 650 =======================
+@include md-sm {}
+
+// 400 ===========================
+@include md-xsm {
+    .auto_container {
+        padding: 0 20px;
+    }
+}
