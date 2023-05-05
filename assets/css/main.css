@@ -362,8 +362,20 @@ li {
 }
 .menu_item-photo {
   background: #fff;
+  width: calc(100% - 140px);
+  padding: 30px 70px;
+  height: 200px;
+  position: relative;
+}
+.menu_item-photo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 300px;
+  height: 100%;
+  background: #fff;
+  z-index: -1;
 }
 .menu_item-photo img {
   width: 100%;
@@ -372,7 +384,8 @@ li {
   -o-object-fit: contain;
 }
 .menu_item-info {
-  background: #ededed;
+  background: #764a27;
+  color: #fff;
   text-align: center;
   padding: 15px 5px;
 }
