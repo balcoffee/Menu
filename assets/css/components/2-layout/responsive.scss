@@ -6,9 +6,9 @@
         &_item {
             width: calc(25% - 20px);
 
-            &-photo {
-                height: 250px;
-            }
+            // &-photo {
+            //     height: 250px;
+            // }
         }
     }
 
@@ -39,11 +39,11 @@
             }
         }
 
-        &_item {
-            &-photo {
-                height: 200px;
-            }
-        }
+        // &_item {
+        //     &-photo {
+        //         height: 200px;
+        //     }
+        // }
     }
 
     // Menu end ==========
@@ -117,6 +117,11 @@
     .menu {
         &_item {
             width: calc(50% - 20px);
+
+            &-photo {
+                padding: 20px 40px;
+                width: calc(100% - 80px);
+            }
         }
     }
 
