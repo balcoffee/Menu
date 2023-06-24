@@ -16,6 +16,15 @@
 </head>
 
 <body>
+
+    <!-- Loader ================ -->
+    <div class="loader">
+        <div class="loader_logo">
+            <img src="assets/images/ball.png" alt="logo">
+        </div>
+    </div>
+    <!-- Loader end ============ -->
+
     <!-- Aside coffee ================== -->
     <div class="aside">
         <div class="left" id="left">
@@ -240,7 +249,7 @@
                         </div>
                         <div class="menu_item-info">
                             <h6 class="menu_item-title">
-                                Флэт уайт 
+                                Флэт уайт
                             </h6>
                             <p class="menu_item-cash">
                                 30 TMT
@@ -292,10 +301,10 @@
                         </div>
                         <div class="menu_item-info">
                             <h6 class="menu_item-title">
-                                Ice tea 
+                                Ice tea
                             </h6>
                             <p class="menu_item-cash">
-                                25 TMT 
+                                25 TMT
                             </p>
                         </div>
                     </div>
@@ -309,7 +318,7 @@
                                 Имбирный
                             </h6>
                             <p class="menu_item-cash">
-                                20 TMT 
+                                20 TMT
                             </p>
                         </div>
                     </div>
@@ -320,7 +329,7 @@
                         </div>
                         <div class="menu_item-info">
                             <h6 class="menu_item-title">
-                                Фруктовый 
+                                Фруктовый
                             </h6>
                             <p class="menu_item-cash">
                                 20/30 TMT
@@ -334,7 +343,7 @@
                         </div>
                         <div class="menu_item-info">
                             <h6 class="menu_item-title">
-                                Tурецкий чай 
+                                Tурецкий чай
                             </h6>
                             <p class="menu_item-cash">
                                 3/6/30 TMT
@@ -542,7 +551,7 @@
                         </div>
                         <div class="menu_item-info">
                             <h6 class="menu_item-title">
-                                Aнанасовый смузи 
+                                Aнанасовый смузи
                             </h6>
                             <p class="menu_item-cash">
                                 35 TMT
@@ -609,6 +618,15 @@
                 behavior: "smooth"
             });
         });
+    </script>
+
+
+    <script>
+        let loader = document.querySelector('.loader');
+
+        setTimeout(function () {
+            loader.classList.add("remove");
+        }, 1500);
     </script>
 
 </body>
